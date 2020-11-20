@@ -16,6 +16,6 @@ Functionalities:
 1. Create an empty directory called "Data" in the directory "Camera".
 2. Create an environment, it must have flask, cv2, numpy. ( As you can see in the requirements.txt --not implemented yet)
 3. Make sure that your camera is connected to your device. If you are using an external camera everything should be just fine. If you want to use the built-in camera, you should change in Camera/Source/camera.py, in the constructor of the class VideoCamera, VideoWriter(0).
-4. Run these commands: export FLASK_APP=server.py
+4. Run these commands: export FLASK_APP=server.py &&
                        flask run
                       
