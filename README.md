@@ -1,6 +1,6 @@
-  **SECURITY CAMERA**
+  ***SECURITY CAMERA***
   
-    This project will create a Flask server which will be opened at localhost:5000.
+    *This project will create a Flask server which will be opened at localhost:5000.*
 I used this project on a raspberry pi4 B in order to create a security camera for my house. There are a few issues in the rasbian os with the environment installation, contact me if you need any help.
 It uses an external webcam which will record any movement that it sees. This project uses cv2 in order to create and save videos.
 Functionalities:
@@ -19,3 +19,4 @@ Functionalities:
 4. Run these commands: export FLASK_APP=server.py &&
                        flask run
                       
+***Feel free to contact me anytime regarding this***
